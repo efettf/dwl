@@ -26,6 +26,7 @@ static const char *cursor_theme            = "Bibata-Modern-Classic";
 static const char cursor_size[]            = "19"; /* Make sure it's a valid integer, otherwise things will break */
 
 /* tagging - TAGCOUNT must be no greater than 31 */
+#define TAGCOUNT (5)
 static char *tags[] = { "1", "2", "3", "4", "5" };
 
 /* logging */
